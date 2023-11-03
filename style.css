@@ -1,0 +1,55 @@
+a {
+  text-decoration: none;
+}
+
+/* Button and call to action (cta) background color */
+button,
+.cta {
+    background-color: #3882f6;
+}
+
+/* Background color for header, hero and footer */
+.head-hero,
+.footer {
+    background-color: #1f2937;
+}
+
+.header-logo, 
+.cta {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.information-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder; 
+}
+
+.secondary-text,
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.quote-section,
+.image-placeholder {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
