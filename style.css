@@ -21,6 +21,11 @@ button,
     background-color: #1f2937;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header-logo, 
 .cta {
     color: #f9faf8;
@@ -56,6 +61,8 @@ a {
 }
 
 ul {
+  display: flex;
+  gap: 16px;
   list-style-type: none;
   margin: 0;
   padding: 0;
