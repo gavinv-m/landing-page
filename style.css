@@ -2,6 +2,13 @@ a {
   text-decoration: none;
 }
 
+button {
+    border-radius: 15px;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 8px 16px;
+}
+
 /* Button and call to action (cta) background color */
 button,
 .cta {
