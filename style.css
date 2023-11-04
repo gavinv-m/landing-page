@@ -10,20 +10,22 @@ body {
 }
 
 button {
-    border-radius: 15px;
     color: #f9faf8;
     font-size: 18px;
-    padding: 8px 16px;
+    padding: 4px 16px;
 }
 
 body > div {
     flex: 1;
+    padding: 10px 200px;
 }
 
 /* Button and call to action (cta) background color */
 button,
 .cta {
     background-color: #3882f6;
+    border: #3882f6;
+    border-radius: 5px;
 }
 
 /* Background color for header, hero and footer */
@@ -50,7 +52,7 @@ button,
 
 .hero {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 /* .hero-left {
@@ -74,6 +76,14 @@ button,
 a {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+#button-one {
+    margin-top: 8px;
+}
+
+#button-two {
+    border-color: white;
 }
 
 .quote-section,
