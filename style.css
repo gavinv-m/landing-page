@@ -15,12 +15,17 @@ button {
     padding: 4px 16px;
 }
 
+#button-one {
+    margin-top: 8px;
+}
+
 body > div {
     flex: 1;
     padding: 10px 200px;
 }
 
 /* Button and call to action (cta) background color */
+/* Rounded corners  */
 button,
 .cta {
     background-color: #3882f6;
@@ -52,13 +57,16 @@ button,
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-/* .hero-left {
-    display: flex;
-    flex-direction: column;
-} */
+.hero > div {
+    flex: 1;
+}
+
+.image-placeholder {
+    background-color: #6d747d;
+}
 
 .information-header {
     color: #1f2937;
@@ -78,16 +86,7 @@ a {
     font-size: 18px;
 }
 
-#button-one {
-    margin-top: 8px;
-}
-
-#button-two {
-    border-color: white;
-}
-
-.quote-section,
-.image-placeholder {
+.quote-section {
     background-color: #e5e7eb;
 }
 
