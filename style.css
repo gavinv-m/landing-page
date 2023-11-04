@@ -86,10 +86,15 @@ button,
     background-color: #6d747d;
 }
 
+.images-subtext {
+    display: flex;
+}
+
 .information-header {
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+    text-align: center;
 }
 
 .main-text {
