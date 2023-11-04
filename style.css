@@ -64,6 +64,15 @@ button,
     flex: 1;
 }
 
+.hero-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-right > div {
+    flex: 1;
+}
+
 .image-placeholder {
     background-color: #6d747d;
 }
