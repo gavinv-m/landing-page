@@ -15,6 +15,7 @@ body {
     border-style: solid;
     border-width: medium;
     height: 125px;
+    margin-bottom: 5px;
     width: 125px;
 }
 
@@ -100,6 +101,7 @@ button,
     display: flex;
     gap: 25px;
     justify-content: center;
+    margin-bottom: 70px;
 }
 
 .images-subtext-container {
@@ -113,6 +115,8 @@ button,
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
