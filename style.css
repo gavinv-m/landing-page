@@ -95,6 +95,13 @@ a {
     font-size: 18px;
 }
 
+/* Center the text in image placeholder */
+.secondary-text.image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .quote-section {
     background-color: #e5e7eb;
 }
