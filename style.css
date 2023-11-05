@@ -49,6 +49,36 @@ button,
     border-radius: 5px;
 }
 
+.cta {
+    padding: 30px 150px;
+}
+
+.cta-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.cta {
+    align-items: center;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-right {
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+}
+
 /* Background color for header, hero and footer */
 .head-hero,
 .footer {
@@ -63,6 +93,12 @@ button,
 .header,
 .footer {
     height: 50px;
+}
+
+.footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .header-logo, 
