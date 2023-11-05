@@ -109,6 +109,7 @@ button,
 
 .hero {
     display: flex;
+    gap: -50px;
     justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -122,8 +123,19 @@ button,
 
 .hero-right {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
+
+.hero-right > img {
+    min-width: 500px;
+    height: auto;
+}
+
+/* .hero-right {
+    display: flex;
+    flex-direction: column;
+} */
 
 /* Fill up vertical space */
 .hero-right > div {
@@ -133,6 +145,11 @@ button,
 .illustration-text {
     color: #6d747d;
     text-align: center;
+}
+
+img {
+    height: auto;
+    width: 100px;
 }
 
 .image-placeholder {
