@@ -2,6 +2,12 @@ a {
   text-decoration: none;
 }
 
+#attribution {
+    color: #1f2937;
+    font-size: 24px;
+    text-align: right;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -140,10 +146,16 @@ a {
 }
 
 .quote-section {
+    align-items: center;
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
 
 .quote-text {
+    color: #9ca1a8;
     font-size: 32px;
     font-style: italic;
 }
